@@ -1,0 +1,99 @@
+
+body {
+    font-family: 'Oswald', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+li {
+    list-style: none;
+}
+p {
+    margin: 0;
+}
+img {
+    max-width: 100%;
+}	
+.trainer-name {
+    margin: 2px 0px;
+}
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.main-header {
+    background: #202020;
+}
+.clearfix:after { content: " ";
+visibility: hidden; display: block; height: 0; clear: both; }
+.header-logo {
+    float: left;
+    font-family: 'Raleway', sans-serif;
+}
+.header-menu {
+    float: right;
+}
+.header-menu ul li {
+    float: left;
+}
+.header-menu ul {
+    padding: 10px 0;
+}
+.header-menu ul li a {
+    padding: 5px 15px;
+}
+.header-menu ul li a:hover,.header-menu ul li.active a {
+    background: #E25050;
+}
+.ft-md-3 {
+    float: left;
+    width: 22.8%;
+    padding: 0 12px;
+}
+.fitness-row{
+	       background-image: url(../image/bg_pattern.png);
+}
+
+.superb-foot {
+    padding: 7px 15px 15px 15px;
+}
+
+.trainer-block {
+    background: #fff;
+    transition: all 0.5s ease-out;
+}
+.trainer-block:hover .visible-block {
+    display: none;
+}
+.trainer-block:hover .hover-block {
+    display: block;
+}
+.trainer-block .hover-block {
+    display: none;
+    transition: all 0.5s ease-out;
+}
+
+.hover-block h4.trainer-name {
+    padding: 20px 10px;
+}
+.hover-block {
+      min-height: 276px;
+    transition: all 0.5s ease-out;
+}
+.hover-block {
+    padding: 20px;
+}
+.super-trainer {
+    padding: 20px 10px;
+    margin: 0;
+    color: #fff;
+    text-align: center;
+}
+.banner-section {
+    float: left;
+    clear: both;
+    width: 100%;
+}
